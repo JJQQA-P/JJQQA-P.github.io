@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJQQA-P的技术主页</title>
+    <style>
+        body {
+            background-color: #ffffff;      /* 纯白背景 */
+            color: #000000;                /* 黑色字体 */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        /* 欢迎语区域：居中对齐 */
+        .welcome-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .welcome-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .welcome-section .tagline {
+            font-size: 1.2em;
+            color: #444;                   /* 深灰色辅助文字，仍是黑色系 */
+        }
+        /* 卡片容器 */
+        .card {
+            /* 蓝绿渐变色 – 从浅蓝过渡到浅青，在色轮上彼此临近 */
+            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+            border-radius: 20px;
+            padding: 30px 35px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+            color: #000000;               /* 卡片内文字仍为黑色，因渐变较浅所以阅读清晰 */
+        }
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.6em;
+        }
+        /* 科技感点缀：发光小圆点 */
+        .card .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #3b71ca;
+            border-radius: 50%;
+            margin-right: 8px;
+            box-shadow: 0 0 8px #3b71ca;
+        }
+        .email-link {
+            color: #000000;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+        .email-link:hover {
+            color: #1a56b0;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid rgba(0,0,0,0.15);
+            margin: 20px 0;
+        }
+        .footer-note {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- 欢迎区域 -->
+    <div class="welcome-section">
+        <h1>👋 你好，欢迎来到我的技术主页</h1>
+        <p class="tagline">热爱技术，乐于分享与探讨 · 期待与你交流碰撞思想的火花</p>
+    </div>
+
+    <!-- 个人卡片 -->
+    <div class="card">
+        <h2><span class="dot"></span>关于我</h2>
+        <p>计算机科学与技术在读研究生，研究方向为<strong>多模态大模型</strong>。</p>
+        <p>我相信技术的价值在于连接人与信息，更在于连接人与人。无论是模型架构的探索，还是开源工具的打磨，我都乐在其中。</p>
+    </div>
+
+    <!-- 联系方式卡片 -->
+    <div class="card">
+        <h2><span class="dot"></span>保持联系</h2>
+        <p>📧 邮箱：<a class="email-link" href="mailto:389877373@qq.com">389877373@qq.com</a></p>
+        <p>💬 欢迎来信交流技术想法、项目合作，或者单纯来打个招呼～</p>
+    </div>
+
+    <!-- 技术氛围卡片 -->
+    <div class="card">
+        <h2><span class="dot"></span>正在折腾</h2>
+        <p>🔭 多模态模型微调</p>
+        <p>🧪 大模型部署与轻量化</p>
+        <p>📦 个人工具箱 &amp; 自动化脚本</p>
+        <p><em>「Stay hungry, stay foolish.」</em></p>
+    </div>
+
+    <div class="footer-note">
+        © 2025 JJQQA-P · 由 GitHub Pages 驱动
+    </div>
+</div>
+</body>
+</html>
